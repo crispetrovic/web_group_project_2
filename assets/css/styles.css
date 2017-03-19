@@ -1,14 +1,208 @@
 /********************************************************************************/
 /* On devices wider than 940px */
-@media(max-width: 940px) {
+@media(min-width: 940px) {
+
 
 html {
     font-size: 62.5%;
 }
 
 body {
-  margin: 0;
-  width: 100%;
+    margin: 0;
+    width: 100%;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    background-color: #f2f2f2;
+    opacity: 90%;
+    height: 215px;
+    /*border: red 2px solid;*/
+}
+
+
+.menu{
+    display: inline-flex;
+    padding-top: 10px;
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: center;
+    /*border: orange 2px solid;*/
+
+}
+
+#nav-left{
+    display: inline-flex;
+    margin-right: 10%;
+    padding-top: 15px;
+    /*border: yellow 2px solid;*/
+}
+
+#nav-right{
+    display: inline-flex;
+    margin-left: 10%;
+    padding-top: 15px;
+    /*border: green 2px solid;*/
+}
+
+#nav-link{
+    display: inline-flex;
+    font-family: 'Lato Regular', sans-serif;
+    font-size: 1.06em;
+    line-height: 1.75em;
+    color: #303030;
+    width: 100px;
+    list-style: none;
+    /*border: blue 2px solid;*/
+}
+
+
+.nav a {
+    text-decoration: none;
+    font-family: 'Lato Regular', sans-serif;
+    font-size: 1.40em;
+    color: #303030;
+    margin: 50px;
+    /*border: purple 2px solid;*/
+}
+
+
+.hero{
+    height: 815px;
+    width: 100%;
+}
+
+#row1{
+    width: 100%;
+    display: flex;
+    border: green 2px solid;
+}
+
+
+#index-content{
+    font-family: 'Lato Regular', sans-serif;
+    font-size: 1.5em;
+    line-height: 1.6em;
+    padding: 10% 7%;
+    color: #303030;
+    border: purple 2px solid;
+}
+
+#index-caketypes{
+    background-color: #e0d7c5;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3% 18% 0 18%;
+    border: blue 2px solid;
+
+}
+
+#row2{
+    width: 100%;
+    background-color: #8e5942;
+    height: 220px;
+    border: orange 2px solid;
+}
+
+#icons{
+    display: inline-flex;
+
+}
+
+.icons-text {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    color: #c3bbac;
+    font-size: 2.5em;
+    line-height: .7em;
+}
+
+#caketypes{
+    color: #f2f2f2;
+    font-size: 3.25em;
+}
+
+#icon-wisk{
+    max-width:30%;
+    max-height:30%;
+}
+
+#icon-heart{
+    max-width:30%;
+    max-height:50%;
+}
+
+footer{
+    background-color: #be5f27;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    /*border: red 2px solid;*/
+    height: 215px;
+
+}
+
+footer p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5em;
+    color: #f2f2f2;
+    line-height: 1.75em;
+
+}
+
+#footer-biz-info{
+    display: inline-flex;
+    flex-direction: column;
+    text-align: center;
+    margin-right: 10%;
+    /*border: green 2px solid;*/
+}
+
+#footer-addy{
+    text-transform: uppercase;
+}
+
+#footer-hours{
+
+}
+
+.logo-footer{
+
+}
+
+.social-media{
+    margin: 5px;
+}
+
+.social-media + .social-media, .social-media{
+    margin-right: 20px;
+}
+
+#footer-icons{
+    display: inline-flex;
+    /*border: yellow 2px solid;*/
+
+}
+
+#footer-num{
+    text-align: center;
+}
+
+#footer-social-num{
+    display: inline-flex;
+    flex-direction: column;
+    margin-left: 10%;
+    /*border: blue 2px solid;*/
+
 }
 
 
@@ -49,7 +243,7 @@ body {
 
 /********************************************************************************/
 /* On devices smaller than 375px */
-@media(min-width: 375px){
+@media(max-width: 375px){
 
 html {
     font-size: 62.5%;
@@ -127,14 +321,18 @@ body {
 }
 
 #index-content{
+    font-family: 'Lato Regular', sans-serif;
+    font-size: 2em;
+    line-height: 1.6em;
+    color: #303030;
     margin: 10px;
 }
 
 .index-info{
-    font-family: 'Lato Regular', sans-serif;
-    font-size: 1em;
-    line-height: 1.6em;
-    color: #303030;
+    /*font-family: 'Lato Regular', sans-serif;
+    /*font-size: 2em;*/
+    /*line-height: 1.6em;
+    color: #303030;*/*/
 
 }
 
@@ -149,6 +347,16 @@ body {
     text-transform: uppercase;
     color: #c3bbac;
     font-size: 2.5em;
+}
+
+#icon-wisk{
+    max-width:30%;
+    max-height:30%;
+}
+
+#icon-heart{
+    max-width:30%;
+    max-height:50%;
 }
 
 footer{
@@ -167,7 +375,7 @@ footer p{
     font-family: 'Oswald', sans-serif;
     font-size: .7em;
     color: #f2f2f2;
-    line-height: .75em;
+    line-height: 1.75em;
 
 }
 
