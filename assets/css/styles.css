@@ -396,9 +396,13 @@ body {
     max-width: 100%;
 }
 
+#get-your-fix{
+    visibility: hidden;
+}
+
 #index-content{
     font-family: 'Lato Regular', sans-serif;
-    font-size: 2em;
+    font-size: 2.5em;
     line-height: 1.6em;
     color: #303030;
     margin: 10px;
@@ -412,28 +416,78 @@ body {
 
 }
 
-#icons{
-    display: inline-flex;
-
+.splash{
+    visibility: collapse;
+    height: 0px;
+    width: 0px;
 }
 
+
 #icons  p {
-    font-family: 'Oswald', sans-serif;
+    /*font-family: 'Oswald', sans-serif;
     font-weight: bold;
     text-transform: uppercase;
     color: #c3bbac;
+    font-size: 2.5em;*/
+    visibility: collapse;
+    height: 0px;
+    width: 0px;
+}
+
+#icon-wisk, #icon-heart, #icon-bulb, #with-love, #from-scratch, #custom-avail{
+    /*max-width:30%;
+    max-height:30%;*/
+    visibility: collapse;
+    height: 0px;
+    width: 0px;
+}
+
+#row1-right-box{
+    display: inline-flex;
+    width: 100%;
+    /*border: red 2px solid;*/
+}
+
+#index-caketypes{
+    background-color: #e0d7c5;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    width: 100%;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
     font-size: 2.5em;
+    color: #f2f2f2;
+    line-height: .8em;
+    /*border: blue 2px solid;*/
+
 }
 
-#icon-wisk{
-    max-width:30%;
-    max-height:30%;
+#row2{
+    width: 100%;
+    background-color: #8e5942;
+    height: 220px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 0px;
+
+    /*border: orange 2px solid;*/
 }
 
-#icon-heart{
-    max-width:30%;
-    max-height:50%;
+#row2 p {
+    font-family: 'Oswald', sans-serif;
+    font-weight: lighter;
+    font-size: 2.1em;
+    color: #f2f2f2;
+
 }
+
 
 footer{
     background-color: #be5f27;
@@ -443,7 +497,8 @@ footer{
     justify-content: center;
     flex-wrap: nowrap;
     /*border: red 2px solid;*/
-    height: 80px;
+    height: 100px;
+    margin-bottom: 0px;
 
 }
 
