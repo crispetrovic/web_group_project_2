@@ -22,7 +22,8 @@ body {
     opacity: 0.9;
     height: 215px;
     z-index: 30;
-    position: relative;
+    position: absolute;
+    width: 100%;
     /*border: red 2px solid;*/
 }
 
