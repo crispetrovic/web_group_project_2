@@ -80,7 +80,7 @@ body {
     position: relative;
 }
 
-#get-your-fix{
+#orange-text-box{
     display: inline-flex;
     background-color: #d49b30;
     font-family: 'Oswald', sans-serif;
@@ -396,7 +396,7 @@ body {
     max-width: 100%;
 }
 
-#get-your-fix{
+#orange-text-box{
     visibility: hidden;
 }
 
