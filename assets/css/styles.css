@@ -77,13 +77,28 @@ body {
     height: 815px;
     width: 100%;
     z-index: 1;
-    margin-top: -220px;
-position: absolute;
+    position: relative;
 }
+
+#get-your-fix{
+    display: inline-flex;
+    background-color: #d49b30;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.1em;
+    color: #f2f2f2;
+    z-index: 6;
+    position: absolute;
+    margin-top: -3px;
+    margin-left: 43.5%;
+    padding: 0 1%;
+}
+
 
 #row1{
     width: 100%;
     display: inline-flex;
+    margin-top: -3px;
+    position: relative;
     /*border: green 2px solid;*/
 }
 
@@ -92,12 +107,18 @@ position: absolute;
     font-family: 'Lato Regular', sans-serif;
     font-size: 1.5em;
     line-height: 1.6em;
-    padding-top: 100px;
-    padding-left: 65px;
-    padding-right: 10px;
+    padding-top: 8%;
+    padding-left: 5%;
+    padding-right: 3%;
     color: #303030;
     margin-top: 0;
     /*border: purple 2px solid;*/
+}
+
+#row1-right-box{
+    display: inline-flex;
+    width: 120%;
+    /*border: red 2px solid;*/
 }
 
 #index-caketypes{
@@ -105,12 +126,13 @@ position: absolute;
     display: inline-flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 70px;
-    padding-right: 240px;
-    padding-left: 240px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    width: 100%;
     /*border: blue 2px solid;*/
 
 }
+
 
 #row2{
     width: 100%;
@@ -119,7 +141,7 @@ position: absolute;
     display: inline-flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 13%;
+
     /*border: orange 2px solid;*/
 }
 
@@ -129,6 +151,10 @@ position: absolute;
     font-size: 2.1em;
     color: #f2f2f2;
 
+}
+
+.splash{
+    max-width: 100%:
 }
 
 #icons{
@@ -160,28 +186,37 @@ position: absolute;
 }
 
 #icon-heart{
-    max-width:100%;
-    max-height:100%;
+    /*max-width:100%;
+    max-height:100%;*/
+     /*border: orange 2px solid;*/
 }
 
 #row3{
+    width: 100%;
     display: inline-flex;
     flex-direction: row;
+}
+
+#row3-right-box, #row5-right-box{
+    display: inline-flex;
+    flex-direction: column;
+    margin-left: 12%;
+     /*border: green 2px solid;*/
 }
 
 #with-love, #custom-avail{
     display: inline-flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 10%;
-    margin-left: 15%;
-    /* border: blue 2px solid; */
+    margin-top: 100%;
+     /*border: blue 2px solid;*/
 }
 
 #row4{
     display: inline-flex;
     flex-direction: row;
-    margin-top: 0;
+    margin-top: -3px;
+    width: 100%;
     /*border: red 2px solid;*/
 }
 
@@ -197,7 +232,8 @@ position: absolute;
 #row5{
     display: inline-flex;
     flex-direction: row;
-    margin-top: 0;
+    margin-top: -3px;
+    width: 100%:
     /*border: red 2px solid;*/
 }
 
@@ -209,7 +245,7 @@ footer{
     justify-content: center;
     flex-wrap: nowrap;
     /*border: red 2px solid;*/
-    margin-top: 0;
+    margin-top: -3px;
     height: 215px;
 
 }
@@ -263,9 +299,10 @@ footer p{
 
 
 }
+
 /********************************************************************************/
 /* On devices smaller than 660px */
-@media(max-width: 660px){
+@media(min-width:601px) and (max-width: 939px){
 
 html {
     font-size: 62.5%;
@@ -279,26 +316,10 @@ body {
 
 
 }
-/********************************************************************************/
-/* On devices smaller than 460px */
-@media(max-width: 460px) {
-
-html {
-    font-size: 62.5%;
-}
-
-body {
-  margin: 0;
-  width: 100%;
-}
-
-
-
-}
 
 /********************************************************************************/
-/* On devices smaller than 375px */
-@media(max-width: 375px){
+/* On devices smaller than 600px */
+@media(max-width: 600px) and (min-width: 400px){
 
 html {
     font-size: 62.5%;
@@ -370,7 +391,7 @@ body {
     width: 45px;
 }
 
-.splash{
+.hero{
     height: auto;
     max-width: 100%;
 }
