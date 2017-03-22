@@ -113,15 +113,16 @@ body {
 .row1-about{
     display: inline-flex;
     margin-top: -3px;
+    width: 100%;
 }
 
 .baker-pic{
     background-color: #e0d7c5;
-    
+    max-width: 50%;
 }
 
 #baker-pic{
-
+    max-width: 630px;
 }
 
 .baker-name{
