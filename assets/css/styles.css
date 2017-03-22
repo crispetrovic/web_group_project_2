@@ -110,6 +110,37 @@ body {
     /*border: green 2px solid;*/
 }
 
+.row1-about{
+    display: inline-flex;
+    margin-top: -3px;
+}
+
+.baker-pic{
+    background-color: #e0d7c5;
+    
+}
+
+#baker-pic{
+
+}
+
+.baker-name{
+    color: #8e5942;
+    text-transform: uppercase;
+    line-height: .4em;
+}
+
+.baker-info{
+    font-family: 'Lato Regular', sans-serif;
+    font-size: 1.5em;
+    line-height: 1.6em;
+    padding-top: 20%;
+    padding-left: 10%;
+    padding-right: 3%;
+    color: #303030;
+    margin-top: 0;
+}
+
 
 #index-content{
     font-family: 'Lato Regular', sans-serif;
@@ -484,6 +515,10 @@ body {
 #learn-more{
     font-style: italic;
     color: #be5f27;
+}
+
+#row1-about{
+    display: inline-flex;
 }
 
 #row2{
