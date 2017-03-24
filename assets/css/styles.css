@@ -119,10 +119,14 @@ body {
 .baker-pic{
     background-color: #e0d7c5;
     max-width: 50%;
+    flex-grow: 0;
+    flex-shrink: 0;
 }
 
 #baker-pic{
-    max-width: 630px;
+    max-width: 90%;
+    flex-grow: 0;
+    flex-shrink: 0;
 }
 
 .baker-name{
