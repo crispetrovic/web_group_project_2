@@ -110,14 +110,20 @@ body {
     /*border: green 2px solid;*/
 }
 
-.row1-about{
+.row-about{
     display: inline-flex;
     margin-top: -3px;
     width: 100%;
 }
 
-.baker-pic{
+.col-1-about{
     background-color: #e0d7c5;
+    max-width: 50%;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.col-2-about{
     max-width: 50%;
     flex-grow: 0;
     flex-shrink: 0;
