@@ -80,6 +80,10 @@ body {
     position: relative;
 }
 
+#header{
+    margin-bottom: -3px;
+}
+
 #index-hero{
     height: 815px;
 }
@@ -112,7 +116,6 @@ body {
 
 .row-about{
     display: inline-flex;
-    margin-top: -3px;
     width: 100%;
 }
 
@@ -133,6 +136,16 @@ body {
     max-width: 90%;
     flex-grow: 0;
     flex-shrink: 0;
+    margin-bottom: -3px;
+}
+
+#cassandra-pic{
+    padding-right: 21%;
+    padding-left: 15%;
+}
+
+#danielle-pic{
+    padding-left: 3.7%;
 }
 
 .baker-name{
