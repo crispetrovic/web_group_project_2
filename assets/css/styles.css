@@ -463,6 +463,7 @@ body {
 .hero{
     height: auto;
     max-width: 100%;
+    margin-bottom: -9%;
 }
 
 #orange-text-box{
@@ -541,19 +542,65 @@ body {
     color: #be5f27;
 }
 
-#row1-about{
+.row-about{
     display: inline-flex;
+    width: 100%;
+    flex-wrap: wrap;
 }
+
+.col-1-about{
+    background-color: #e0d7c5;
+    max-width: 100%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    order: 1;
+}
+
+.col-2-about{
+    max-width: 100%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    order: 2;
+}
+
+#baker-pic{
+    max-width: 90%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    margin-bottom: -3px;
+}
+
+#cassandra-pic{
+    width: 68%;
+    padding-right: 12%;
+    padding-left: 20%;
+}
+
+.baker-name{
+    color: #8e5942;
+    text-transform: uppercase;
+    line-height: .4em;
+}
+
+.baker-info{
+    font-family: 'Lato Regular', sans-serif;
+    font-size: 1.5em;
+    line-height: 1.6em;
+    padding: 10%;
+    color: #303030;
+    margin-top: 0;
+}
+
 
 #row2{
     width: 100%;
     background-color: #8e5942;
-    height: 220px;
+    height: 120px;
     display: inline-flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: -39px;
+    margin-bottom: -14px;
 
     /*border: orange 2px solid;*/
 }
@@ -580,6 +627,7 @@ footer{
     /*border: red 2px solid;*/
     height: 100px;
     margin-bottom: 0px;
+    padding-top: 3%;
 
 }
 
