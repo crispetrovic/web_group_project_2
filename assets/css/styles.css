@@ -365,7 +365,16 @@ footer p{
 
 }
 
-
+#menu-info{
+    display: inline-flex;
+    background-color: #e0d7c5;
+    font-family: 'Lato Regular', sans-serif;
+    font-size: 1.5em;
+    line-height: 1em;
+    margin: 0 20% 0 20%;
+    padding: 10%;
+    color: #303030;
+}
 
 }
 
@@ -584,7 +593,7 @@ body {
 
 .baker-info{
     font-family: 'Lato Regular', sans-serif;
-    font-size: 1.5em;
+    font-size: 2.3em;
     line-height: 1.6em;
     padding: 10%;
     color: #303030;
@@ -595,7 +604,7 @@ body {
 #row2{
     width: 100%;
     background-color: #8e5942;
-    height: 120px;
+    height: 175px;
     display: inline-flex;
     flex-direction: column;
     justify-content: space-around;
@@ -682,6 +691,14 @@ footer p{
     display: inline-flex;
     flex-direction: column;
     /*border: blue 2px solid;*/
-
 }
+
+/*#menu-info{
+    display: inline-flex;
+    background-color: #e0d7c5;
+    font-family: 'Lato Regular', sans-serif;
+    font-size: 2.5em;
+    line-height: 1.6em;
+    color: #303030;
+}*/
 }
