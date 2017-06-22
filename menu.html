@@ -6,7 +6,14 @@
     <title>Fix Cake Menu</title>
     <meta content='width=device-width,maximum-scale=1.0,initial-scale=1.0,minimum-scale=1.0,user-scalable=yes' name='viewport'>
     <link href='./assets/css/styles.css' media='all' rel='stylesheet'>
+    <link href='./assets/css/menu.css' media='all' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,700i,900|Oswald:400,700" rel="stylesheet">
     <script src="script.js"></script>
+
+    <!--link JQuery library  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+
+    <script src='cake-javascript.js'></script>
 </head>
 
 <body>
@@ -17,7 +24,7 @@
                         <a href ='./menu.html' target='_self'>Menu</a>
                     </div>
                     <div id='nav_link'>
-                        <a href ='#' target='_self'>Custom</a>
+                        <a href ='./custom.html' target='_self'>Custom</a>
                     </div>
                 </div>
                     <div>
@@ -33,12 +40,201 @@
                 </div>
               </div>
     </div>
-    <div>
+    <div id='header'>
         <img class='hero' id='menu-hero' src='./assets/images/fix-menu-hero.jpg' alt='Fix Cake' />
     </div>
-    <div id='menu-info'>
-        <p>Made from scratch daily. Most cakes are available in a variety of sizes and by-the-slice.
 
-        Please <span id='learn-more'>contact Riley</span> for more details and questions.</p>
-
+    <div class='orange-text-box'>
+      <p id='cake-header'>Cakes</p>
+      <p id='other-header'>Other</p>
     </div>
+
+    <div id='menu-body'>
+
+    <div id='menus'>
+
+      <section id='cake-menu'>
+        <div class='menu-intro'>
+          <p>
+            Made from scratch daily. Most cakes are available in a variety
+            of sizes by-the-slice.
+          </p>
+          <p>
+            Please <span class='link-span'>contact Riley</span> for more details and questions.
+          </p>
+        </div>
+
+
+    <div class='menu-item'>
+  <h2>Chocolate Cake</h2>
+  <p>
+    A rich moist chocolate cake witha chocolate buttercream
+    icing. Moist, delicious and everything in between.
+  </p>
+
+</div>
+
+<hr>
+
+<div class='menu-item'>
+  <h2>German Chocolate Cake</h2>
+  <p>
+    Three moist layers of chocolate cake, with a sweet and gooey
+    caramel coconut frosting.
+  </p>
+</div>
+
+<hr>
+
+<div class='menu-item'>
+  <h2>Peanut Butter Chocolate</h2>
+  <p>
+    Our traditional rich chocolate cake layered with a whipped
+    peanut butter frosting.
+  </p>
+</div>
+
+<hr>
+
+<div class='menu-item'>
+  <h2>Toasted Almond</h2>
+  <p>
+    A traditional, simple crowd-pleaser topped with a rich,
+    cooked brown sugar frosting.
+  </p>
+</div>
+
+<hr>
+
+<div class='menu-item'>
+  <h2>Carrot Cake</h2>
+  <p>
+    A customer favorite! Dense, rich, rustic, walnut-studded and
+    carrot-flecked. Topped with cream cheese frosting.
+  </p>
+</div>
+
+<hr>
+
+<div class='menu-item'>
+  <h2>Tiramasu</h2>
+  <p>
+    An authentic creation of rum and espresso-soaked ladyfingers
+    layered with mascarpone custard and whipped cream.
+  </p>
+</div>
+
+<hr>
+
+<div class='menu-item'>
+  <h2>Lemon Cake</h2>
+  <p>
+    A refreshing four layer cake, filled with lemon curd and covered
+    with lemon frosting.
+  </p>
+</div>
+
+<hr>
+
+<div class='menu-item'>
+  <h2>Red Velvet</h2>
+  <p>
+    A classic Southern cake that's slathered in cream cheese frosting and
+    sprinkled with crushed pecans.
+  </p>
+</div>
+
+<hr>
+
+<div class='menu-item'>
+  <h2>Custom Orders</h2>
+  <p>
+    Please see our <span class='link-span'><a href='custom.html'>
+      Custom Orders</a></span> page.
+  </p>
+</div>
+</section>
+
+<section id='other-menu' class='display-none'>
+<div class='menu-intro'>
+  <p>
+    Made from scratch daily.
+  </p>
+  <p>
+    Please <span class='link-span'>contact Riley</span> for more details and question.
+  </p>
+</div>
+
+
+<div class='menu-item'>
+  <h2>Gooey Butter Cake</h2>
+  <p>
+  Traditional rich gooey butter topped with a dollop of cream
+  cheese frosting.
+  </p>
+</div>
+
+<hr>
+
+<div class='menu-item'>
+  <h2>Cookies</h2>
+  <p>
+  Chocolate chip or Snickerdoodle.
+  </p>
+</div>
+
+<hr>
+
+<div class='menu-item'>
+  <h2>Whoopie Pies</h2>
+  <p>
+  Two pillowy devil's-food cookies enclosing a cloud-like
+  mashmallow filling.
+  </p>
+</div>
+
+<hr>
+
+<div class='menu-item'>
+  <h2>Banana Nut Bread</h2>
+  <p>
+  Moist, sweet bread with smashed bananas and an overload of
+  crushed walnuts.
+  </p>
+</div>
+
+<hr>
+
+<div class='menu-item'>
+  <h2>Custom Orders</h2>
+  <p>
+    Please see our <span class='link-span'><a href='custom.html'>
+      Custom Orders</a></span> page.
+  </p>
+</div>
+
+</section>
+</div>
+</div>
+
+</body>
+
+    <footer>
+        <div id='footer-biz-info'>
+          <p id='footer-addy'>27 Maryland Plaza<br>Saint Louis, MO 63108</p>
+          <p id='footer-hours'>Tues-Sat 7am-7pm, Sun 11am-4pm</p>
+      </div>
+      <div>
+          <img class='logo-footer' src='./assets/images/fix-logo-white.png' alt='Fix Cakes Logo'/>
+      </div>
+      <div id='footer-social-num'>
+          <div id='footer-social-media'>
+              <div id='footer-icons'>
+                  <img class='social-media' src='./assets/images/fix-fbicon.png' alt='Fix Cakes Facebook'/>
+                  <img class='social-media' src='./assets/images/fix-twittericon.png' alt='Fix Cakes Twitter'/>
+                  <img class='social-media' src='./assets/images/fix-instaicon.png' alt='Fix Cakes Instagram'/>
+             </div>
+          </div>
+      <p id='footer-num'>314-930-3103</p>
+    </div>
+    </footer>

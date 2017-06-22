@@ -88,7 +88,7 @@ body {
     height: 815px;
 }
 
-#orange-text-box{
+.orange-text-box{
     display: inline-flex;
     background-color: #d49b30;
     font-family: 'Oswald', sans-serif;
@@ -96,8 +96,7 @@ body {
     color: #f2f2f2;
     z-index: 6;
     position: absolute;
-    margin-top: -3px;
-    margin-left: 43.5%;
+    margin: 0 auto 0 45%;
     padding: 0 1%;
 }
 
@@ -144,9 +143,9 @@ body {
     padding-left: 15%;
 }
 
-#danielle-pic{
+/*#danielle-pic{
     padding-left: 3.7%;
-}
+}*/
 
 .baker-name{
     color: #8e5942;
@@ -367,6 +366,19 @@ footer p{
 
 #menu-info{
     display: inline-flex;
+    flex-direction: column;
+    background-color: #e0d7c5;
+    font-family: 'Lato Regular', sans-serif;
+    font-size: 1.5em;
+    line-height: 1em;
+    margin: 0 20% 0 20%;
+    padding: 10%;
+    color: #303030;
+}
+
+#custom-cake{
+    display: inline-flex;
+    flex-direction: column;
     background-color: #e0d7c5;
     font-family: 'Lato Regular', sans-serif;
     font-size: 1.5em;
