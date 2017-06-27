@@ -45,3 +45,12 @@ hr {
 .bold{
     font-weight: bold;
 }
+
+#cake-header{
+    margin-right: 45px;
+}
+
+#custom-order-form{
+    display: inline-flex;
+    flex-direction: column;
+}
