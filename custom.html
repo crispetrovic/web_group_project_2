@@ -7,11 +7,10 @@
     <meta content='width=device-width,maximum-scale=1.0,initial-scale=1.0,minimum-scale=1.0,user-scalable=yes' name='viewport'>
     <link href='./assets/css/styles.css' media='all' rel='stylesheet'>
     <link href='./assets/css/menu.css' media='all' rel='stylesheet'>
-    <script src="script.js"></script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 
-<script src='custom-page-javascript.js'></script>
+    <script src='custom-page-javascript.js'></script>
 
 </head>
 <body>
@@ -86,42 +85,50 @@
         8" (serves 15-21), 10" (serves 23-33), 12" (serves 34-47),
         14" (serves 46-64), 16" (serves 60-83), 18" (serves 76-105)
       </section>
+      <br/>
 
       <section>
         <span class='bold'>Square cakes: </span>
         8" (serves 15-21), 10" (serves 23-33), 12" (serves 34-47),
         14" (serves 46-64), 16" (serves 60-83)
       </section>
-
+      <br/>
+      
       <span class='bold'>Sheetcakes and cupcakes available upon request.</span>
     </p>
   </div>
 
   <hr>
 
-  <div class='menu-item'>
-    <h2>Design your cake and eat it too</h2>
+<div class='menu-item'>
+   <h2>Design your cake and eat it too</h2>
+   <section id='custom-order-section'>
     <p>
       Have an idea that you don't see listed? We are open to your suggestions
       and creativity. Or if you aren't quite sure what you need, we are here
       to guide you. Let us know what you're thinking.
     </p>
-
+</section>
   </div>
-
 
   <form id='custom-order-form'>
 
+   <div id='name'>
     Name<br/>
-    <input type='text' name='name' style='height:35px' />
+    <input type='text' name='name' style='height:35px; width: 100%'/>
+   </div>
     <br />
 
+    <div id='phone'>
     Phone Number<br />
-    <input type='text' name='phone' style='height:35px'/>
+    <input type='text' name='phone' style='height:35px; width: 100%'/>
+    </div>
     <br />
 
+    <div id='details'>
     The Details<br />
-    <input type='text' name='details' style='height:70px'/>
+    <input type='text' name='details' style='height:70px; width: 100%' />
+   </div>
     <br />
 
     <div id='submit-button'>
@@ -135,6 +142,7 @@
     </div>
   </form>
 
+
   <section id='order-confirmation' class='display-none'>
   <div>
     <p>
@@ -144,7 +152,7 @@
       We will get back to you shortly.
     </p>
   </div>
-  
+
 </div>
 </body>
 <footer>

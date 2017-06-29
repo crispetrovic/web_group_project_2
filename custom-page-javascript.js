@@ -1,6 +1,8 @@
 $(document).ready(function(){
-  $('#custom-order-form').on('submit',function(){
+  $('#submit-button').on('click',function(event){
+     event.preventDefault();
      $('#order-confirmation').removeClass('display-none');
-     $('#custom-order-form').addClass('display-none');
+     $('#custom-order-section').addClass('display-none');
+     $('#name, #phone, #details, #submit-button').addClass('display-none');
   });
 });
