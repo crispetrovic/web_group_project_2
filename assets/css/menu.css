@@ -2,6 +2,12 @@
   display: none;
 }
 
+.current-tab{
+    background-color: #ffffff;
+    color: #be5f27;
+    padding: 0 7% 0 7%;
+}
+
 #menu-body{
     font-family: 'Lato Regular', sans-serif;
     font-size: 1.5em;
