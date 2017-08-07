@@ -626,14 +626,19 @@ body {
     margin-top: 0;
 }
 
+#row-1-left-box{
+    display: inline-flex;
+    width: 50%;
+}
+
 
 #index-content{
     font-family: 'Lato Regular', sans-serif;
     font-size: 1.5em;
     line-height: 1.6em;
-    padding-top: 8%;
-    padding-left: 5%;
-    padding-right: 3%;
+    padding-top: 5em;
+    padding-left: 3em;
+    padding-right: 2em;
     color: #303030;
     margin-top: 0;
     /*border: purple 2px solid;*/
@@ -650,8 +655,8 @@ body {
     display: inline-flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 10%;
-    padding-bottom: 10%;
+    padding-top: 5em;
+    padding-bottom: 5em;
     width: 100%;
     /*border: blue 2px solid;*/
 
