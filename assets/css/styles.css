@@ -1001,7 +1001,7 @@ body {
 .hero{
     height: auto;
     max-width: 100%;
-    margin-bottom: -9%;
+    margin-bottom: -1em;
 }
 
 .orange-text-box{
@@ -1013,7 +1013,7 @@ body {
     z-index: 6;
     position: absolute;
     padding: 0 1em;
-    margin-top: 2em;
+    /*margin-top: 2em;*/
     /*width: 80px;*/
     justify-content: center;
 }
