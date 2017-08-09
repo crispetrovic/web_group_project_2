@@ -1008,12 +1008,12 @@ body {
     display: inline-flex;
     background-color: #d49b30;
     font-family: 'Oswald', sans-serif;
-    font-size: 1em;
+    font-size: 2em;
     color: #f2f2f2;
     z-index: 6;
     position: absolute;
-    padding: 0 1%;
-    width: 80px;
+    padding: 0 1em;
+    /*width: 80px;*/
     justify-content: center;
 }
 
