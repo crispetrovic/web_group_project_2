@@ -1237,10 +1237,10 @@ body {
     flex-direction: column;
     background-color: #e0d7c5;
     font-family: 'Lato Regular', sans-serif;
-    font-size: 1.5em;
-    line-height: 1em;
-    margin: 8.5% 5em 0 5em;
-    padding: 10%;
+    font-size: 2em;
+    line-height: 1.6em;
+    margin: 8.5% 0 0 0;
+    padding: 5em 3em;
     color: #303030;
 }
 
