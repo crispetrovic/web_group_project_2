@@ -1037,7 +1037,7 @@ body {
     font-size: 1.5em;
     line-height: 1.6em;
     color: #303030;
-    padding: 8% 5% 0 5%;
+    padding: 7em 3em 0 3em;
 }
 
 #hours-col-2{
@@ -1155,6 +1155,7 @@ body {
     flex-grow: 0;
     flex-shrink: 0;
     order: 1;
+    padding-top: 7em;
 }
 
 .col-2-about{
