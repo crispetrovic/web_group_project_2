@@ -590,7 +590,7 @@ body {
     max-width: 50%;
     width: 800px;
     flex-grow: 0;
-    flex-shrink: 0;
+    flex-shrink: 1;
 }
 
 .col-2-about{
