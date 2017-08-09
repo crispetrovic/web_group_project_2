@@ -136,6 +136,10 @@ a {
     /*border: green 2px solid;*/
 }
 
+#row1-left-box {
+    width: 100%;
+}
+
 .row-about{
     display: inline-flex;
     width: 100%;
