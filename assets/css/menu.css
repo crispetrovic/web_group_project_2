@@ -61,3 +61,19 @@ hr {
     display: inline-flex;
     flex-direction: column;
 }
+
+/********************************************************************************/
+/* On devices smaller than 600px */
+@media(max-width: 600px) and (min-width: 400px){
+
+    #menu-body{
+        font-family: 'Lato Regular', sans-serif;
+        font-size: 2em;
+        line-height: 1.6em;
+        padding: 3em;
+        background-color: #e0d7c5;
+        color: #303030;
+        margin: 8.5% 0 0 0;
+    }
+
+}
