@@ -551,6 +551,7 @@ body {
     z-index: 1;
     position: relative;
     max-width: 100%;
+    margin-bottom: -.2em;
 }
 
 .orange-text-box{
