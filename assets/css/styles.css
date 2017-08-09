@@ -203,7 +203,7 @@ a {
 
 #row1-right-box{
     display: inline-flex;
-    width: 120%;
+    width: 100%;
     /*border: red 2px solid;*/
 }
 
@@ -272,6 +272,11 @@ a {
 .splash{
     width: 738.33px;
     height: 401px;
+}
+
+.splash-img{
+    display: flex;
+    width: 100%;
 }
 
 #icons{
