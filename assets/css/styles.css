@@ -774,6 +774,7 @@ body {
     padding-right: 10%;
     margin-left: 12%;
      /*border: green 2px solid;*/
+     display: none;
 }
 
 #with-love, #custom-avail{
@@ -782,6 +783,7 @@ body {
     align-items: center;
     margin-top: 100%;
      /*border: blue 2px solid;*/
+     display: none;
 }
 
 #row4{
@@ -800,6 +802,7 @@ body {
     padding-top: 10%;
     padding-left: 10%;
     margin-right: 100px;
+    display: none;
 }
 
 #row5{
