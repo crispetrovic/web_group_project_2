@@ -724,6 +724,7 @@ body {
 .splash{
     width: 738.33px;
     height: 401px;
+    display: none;
 }
 
 #icons{
