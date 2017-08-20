@@ -761,9 +761,9 @@ body {
 }
 
 #row3{
-    width: 100%;
+    /*width: 100%;
     display: inline-flex;
-    flex-direction: row;
+    flex-direction: row;*/
     visibility: hidden;
 }
 
@@ -785,11 +785,11 @@ body {
 }
 
 #row4{
-    display: inline-flex;
+    /*display: inline-flex;
     flex-direction: row;
     margin-top: -3px;
     width: 100%;
-    /*border: red 2px solid;*/
+    /*border: red 2px solid;*/*/
     visibility: hidden;
 }
 
@@ -803,11 +803,11 @@ body {
 }
 
 #row5{
-    display: inline-flex;
+    /*display: inline-flex;
     flex-direction: row;
     margin-top: -3px;
     width: 100%;
-    /*border: red 2px solid;*/
+    /*border: red 2px solid;*/*/
     visibility: hidden;
 }
 
