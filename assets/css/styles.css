@@ -764,7 +764,7 @@ body {
     /*width: 100%;
     display: inline-flex;
     flex-direction: row;*/
-    visibility: hidden;
+    display: none;
 }
 
 #row3-right-box, #row5-right-box{
@@ -790,7 +790,7 @@ body {
     margin-top: -3px;
     width: 100%;
     /*border: red 2px solid;*/*/
-    visibility: hidden;
+    display: none;
 }
 
 #from-scratch{
@@ -808,7 +808,7 @@ body {
     margin-top: -3px;
     width: 100%;
     /*border: red 2px solid;*/*/
-    visibility: hidden;
+    display: none;
 }
 
 #menu-info{
