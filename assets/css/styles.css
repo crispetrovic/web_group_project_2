@@ -919,7 +919,7 @@ footer p{
 
 /********************************************************************************/
 /* On devices smaller than 600px */
-@media(max-width: 600px) and (min-width: 400px){
+@media(max-width: 600px) and (min-width: 300px){
 
 html{
     font-size: 52%;
@@ -1090,6 +1090,7 @@ body {
     line-height: 1.6em;
     color: #303030;
     margin: 10px;
+    padding-top: 2em;
 }
 
 .index-info{
@@ -1101,9 +1102,10 @@ body {
 }
 
 .splash{
-    visibility: collapse;
+    display: none;
     height: 0px;
     width: 0px;
+
 }
 
 
@@ -1113,7 +1115,7 @@ body {
     text-transform: uppercase;
     color: #c3bbac;
     font-size: 2.5em;*/
-    visibility: collapse;
+    display: none;
     height: 0px;
     width: 0px;
 }
@@ -1121,7 +1123,7 @@ body {
 #icon-wisk, #icon-heart, #icon-bulb, #with-love, #from-scratch, #custom-avail{
     /*max-width:30%;
     max-height:30%;*/
-    visibility: collapse;
+    display: none;
     height: 0px;
     width: 0px;
 }
