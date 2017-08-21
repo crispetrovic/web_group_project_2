@@ -64,7 +64,7 @@ hr {
 
 /********************************************************************************/
 /* On devices smaller than 600px */
-@media(max-width: 600px) and (min-width: 400px){
+@media(max-width: 600px) and (min-width: 300px){
 
     #menu-body{
         font-family: 'Lato Regular', sans-serif;
